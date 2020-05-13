@@ -18,7 +18,7 @@ import java.util.Properties;
 public class  BaseClass {
 
     static WebDriver driver;
-    static String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    static String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
 
 
     /**** Método que regresa el objeto WebDriver ****/

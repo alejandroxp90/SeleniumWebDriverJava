@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Mab {
 
-    private static String xPathCrome = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    private static String xPathCrome = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     public static void main(String[] args) throws ParseException, InterruptedException {
         WebDriver wd;
         System.setProperty("webdriver.chrome.driver",xPathCrome);

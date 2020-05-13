@@ -17,7 +17,7 @@ public class ParameterByMethod extends BaseClass {
 
     private WebDriver driver;
     private String baseURL = "https://google.com";
-    private String xPathCrome = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    private String xPathCrome = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
 
     @BeforeTest
     public void launchDriver() {
