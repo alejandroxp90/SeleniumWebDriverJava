@@ -60,8 +60,8 @@ public class ParameterByMethod extends BaseClass {
         System.out.println("Test value is -> " + testValue + " and is equals to " + search);
         searchText.clear();
 
-        //Assert.assertTrue(testValue.equalsIgnoreCase(search));
-        Assert.assertFalse(testValue.equalsIgnoreCase(search));
+        Assert.assertTrue(testValue.equalsIgnoreCase(search));
+       // Assert.assertFalse(testValue.equalsIgnoreCase(search));
 
     }
 
