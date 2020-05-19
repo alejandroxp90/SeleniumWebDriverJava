@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test name="C:/Users/Odinn/IdeaProjects/SeleniumWebDriverJava(failed)">
+    <classes>
+      <class name="reports.PdfEmail">
+        <methods>
+          <include name="testThree"/>
+          <include name="closeBrowser"/>
+          <include name="sendEmail"/>
+          <include name="TestOne"/>
+        </methods>
+      </class> <!-- reports.PdfEmail -->
+      <class name="listeners.TestRealReport">
+        <methods>
+          <include name="testThree"/>
+          <include name="testTwo"/>
+        </methods>
+      </class> <!-- listeners.TestRealReport -->
+    </classes>
+  </test> <!-- C:/Users/Odinn/IdeaProjects/SeleniumWebDriverJava(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
