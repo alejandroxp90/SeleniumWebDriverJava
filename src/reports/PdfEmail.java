@@ -22,7 +22,7 @@ public class PdfEmail extends BaseClass {
     @Test
     public void TestTwo(){
         driver.get("https://www.facebook.com");
-        Assert.assertTrue(true);
+        Assert.assertTrue(true);//
     }
 
     @Test
