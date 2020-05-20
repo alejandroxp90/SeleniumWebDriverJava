@@ -8,6 +8,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 //Clase que utiliza JyperionListener para generar PDF y ScreenShots
+//Las clases son BaseClass y JyperionListener
 @Listeners(JyperionListener.class)
 public class PdfEmail extends BaseClass {
 
