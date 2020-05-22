@@ -23,6 +23,12 @@
                     <include name="testThree"/>
                 </methods>
             </class>
+            <class name="ejercicios.TestEmployeeDetails">
+                <methods>
+                    <include name="testCalculador"/>
+                    <include name="testCalculador2"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
