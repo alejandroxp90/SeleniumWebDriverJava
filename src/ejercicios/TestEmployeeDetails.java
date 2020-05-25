@@ -7,7 +7,7 @@ public class TestEmployeeDetails {
     EmployeeDetails EmD = new EmployeeDetails();
     EmpBusinessLogic EbL = new EmpBusinessLogic();
 
-    @Test
+    @Test//
     public void testCalculador(){
         EmD.setName("Alex");
         EmD.setEdad(36);
