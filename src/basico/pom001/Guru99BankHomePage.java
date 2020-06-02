@@ -11,6 +11,8 @@ public class Guru99BankHomePage {
     By btnSubmit = By.name("btnLogin");
     By userID = By.cssSelector("body > table > tbody > tr:nth-child(4) > td:nth-child(2)");
     By passUserID = By.cssSelector("body > table > tbody > tr:nth-child(5) > td:nth-child(2)");
+    By textUserID = By.name("uid");
+    By textPassID = By.name("password");
     By usuarioIDText = By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[3]/td");
     String varUserID, varPassID;
 
@@ -32,13 +34,13 @@ public class Guru99BankHomePage {
         varPassID = driver.findElement(passUserID).getText();
         System.out.println("userID: " + varUserID);
         System.out.println("pass: " + varPassID);
+        driver.navigate().to("http://demo.guru99.com/V4/");
     }
 
     public void accessDemoSite() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.navigate().to("http://demo.guru99.com/V4/");
-        driver.findElement(userID).sendKeys(varUserID);
-        driver.findElement(passUserID).sendKeys(varPassID);
+        driver.findElement(textUserID).sendKeys(varUserID);
+        driver.findElement(textPassID).sendKeys(varPassID);
         Thread.sleep(5000);
         driver.findElement(btnSubmit).click();
         String welcomeUser = driver.findElement(usuarioIDText).getText();
